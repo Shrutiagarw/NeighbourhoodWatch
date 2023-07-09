@@ -1,0 +1,30 @@
+.Fake {
+    background-image: url(./images/aboutimg1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.from {
+    position: absolute;
+    top: 3rem;
+    left: 20rem;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+.to {
+    text-align: center;
+    position: absolute;
+    border-radius: 0.5rem;
+    top: 3rem;
+    left: 40rem;
+}
+.go {
+    text-align: center;
+    position: absolute;
+    border-radius: 0.5rem;
+    border: 1px solid black;
+    top: 3rem;
+    left: 60rem;
+    background-color: aqua;
+    padding: 0 2rem;
+}

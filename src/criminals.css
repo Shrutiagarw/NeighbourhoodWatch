@@ -1,0 +1,26 @@
+.card {
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    background-color: rgb(213 221 224);
+    border-radius: 1rem;
+    margin: 2% 25%;
+}
+.criminal_img {
+    border-radius: 0.5rem;
+    max-height: 16rem;
+    min-height: 16rem;
+    max-width: 16rem;
+    min-width: 16rem;
+}
+.no_margin {
+    margin: 0;
+    font-size: medium;
+}
+.criminals {
+    padding: 2rem;
+    background-color: black;
+}
+.main_head {
+    color: white;
+}

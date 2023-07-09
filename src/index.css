@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.circle {
+    opacity: 0.4;
+    width: 2rem;
+}
+.home {
+    opacity: 1;
+    width: 2rem;
+}
+
+body {
+    margin: 0;
+}
+
+main {
+    margin: 16px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+
+    background: rgb(255, 255, 255);
+    color: black;
+    font-family: Helvetica;
+    font-weight: 300;
+}
+
+.navbar__title {
+    margin-right: auto;
+    font-size: 150%;
+    padding: 12px 16px;
+    color: black;
+}
+
+.navbar__item {
+    padding: 16px 16px;
+    cursor: pointer;
+    vertical-align: middle;
+    color: black;
+    text-decoration: none;
+}
+.nav_button {
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    font-weight: 900;
+    border: none;
+}
+.all {
+    background-color: black;
+}
+
+.popup {
+    position: absolute;
+    top: 13rem;
+    left: 50%;
+    font-size: 1px;
+    color: black;
+    z-index: 100;
+}
+
+.box {
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: white;
+}
+
+.popup_detail {
+    font-size: 1rem;
+}
+.logo {
+    padding-left: 1 rem;
+    width: 7rem;
+    height: 3rem;
+    transform: scale(1.5);
+    border-radius: 100%;
+}
+.SearchBar {
+    position: absolute;
+    z-index: 100000;
+    top: 15rem;
+}
+#txt {
+    position: absolute;
+    top: 10rem;
+    left: 40%;
+    z-index: 18328732;
+    padding: 0.5rem;
+}
+#go {
+    padding: 0.5rem 2rem;
+    background-color: aqua;
+    border-radius: 0.5rem;
+    position: absolute;
+    top: 10rem;
+    left: 57%;
+    z-index: 18328732;
+}

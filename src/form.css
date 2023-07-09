@@ -1,0 +1,28 @@
+.form_page {
+    background-image: url(./images/formbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 12.3rem;
+    padding-bottom: 8rem;
+}
+.form_text {
+    color: white;
+    font-size: medium;
+}
+.form {
+}
+.box {
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+}
+.description {
+    resize: none;
+}
+.form_btn:hover {
+    opacity: 0.8;
+}
+.form_btn {
+    opacity: 0.6;
+    background-color: rgb(162, 247, 247);
+    padding: 0.5rem 2rem;
+}
